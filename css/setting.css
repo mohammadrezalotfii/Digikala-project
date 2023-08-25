@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: IranYekan200;
+    src: url(../font/woff/iranyekan-thin.woff);
+}
+
+@font-face {
+    font-family: IranYekan300;
+    src: url(../font/woff/iranyekan-light.woff);
+}
+
+@font-face {
+    font-family: IranYekan400;
+    src: url(../font/woff/iranyekan.woff);
+}
+
+@font-face {
+    font-family: IranYekan500;
+    src: url(../font/woff/iranyekan-medium.woff);
+}
+
+@font-face {
+    font-family: IranYekan600;
+    src: url(../font/woff/iranyekan-bold.woff);
+}
+
+@font-face {
+    font-family: IranYekan700;
+    src: url(../font/woff/iranyekan-extrabold.woff);
+}
+
+@font-face {
+    font-family: IranYekan800;
+    src: url(../font/woff/iranyekan-black.woff);
+}
+
+@font-face {
+    font-family: IranYekan900;
+    src: url(../font/woff/iranyekan-extrablack.woff);
+}
+
+:root {
+    --brand: #EF394E;
+    --search: #F1F2F4;
+    --textsearch: #7E7FAD;
+}

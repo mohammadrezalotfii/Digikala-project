@@ -1,0 +1,421 @@
+/* start preheader */
+div.preheader {
+  width: 100%;
+  height: 60px;
+}
+
+div.preheader > img {
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+}
+/* end preheader */
+
+/* start searchbar */
+div.searchbar {
+  width: 100%;
+  height: 68px;
+  padding: 0px 16px;
+}
+
+div.searchbar > div {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.searchbar > div > div:nth-child(1) {
+  width: 70%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+div.searchbar > div > div:nth-child(1) > div:nth-child(1) {
+  width: fit-content;
+  height: inherit;
+  display: flex;
+  padding-left: 24px;
+  align-items: center;
+  text-align: start;
+}
+
+div.searchbar > div > div:nth-child(1) > div.logo{
+    background-color: white;
+}
+
+div.searchbar > div > div:nth-child(1) > div.logo > img{
+    align-items: center;
+}
+
+div.searchbar > div > div:nth-child(1) > div.search >  div{
+    font-size: 12px;
+    height: 44px;
+    width: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--search);
+    border-radius: 8px;
+    border: unset;
+    column-gap: 16px;
+}
+
+div.searchbar > div > div:nth-child(1) > div.search >  div > span{
+    width: 24px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+div.searchbar > div > div:nth-child(1) > div.search >  div > span > img{
+    width: 24px;
+    height: 24px;
+}
+
+div.searchbar > div > div:nth-child(1) > div.search >  div > input {
+    font-family: IranYekan400;
+    background-color: var(--search);
+    color: #7e7fad;
+    border: unset;
+    height: inherit;
+    border-radius: 8px 0px 0px 8px;
+}
+
+div.searchbar > div > div:nth-child(1) > div.search >  div > input::placeholder {
+    font-family: IranYekan400;
+    background-color: var(--search);
+    color: #7e7fad;
+    border: unset;
+    height: inherit;
+    border-radius: 8px 0px 0px 8px;
+}
+
+div.searchbar > div > div:nth-child(1) > div.search >  div > input:focus {
+    font-family: IranYekan400;
+    background-color: rgba(240, 248, 255, 0);
+    outline: unset;
+    height: inherit;
+    width: inherit;
+    border-radius: 8px 0px 0px 8px;
+}
+
+
+div.searchbar > div > div:nth-child(2) {
+  width: 30%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  column-gap: 12px;
+}
+
+div.searchbar > div > div:nth-child(2) > div.log > div{
+    border:1px solid #E0E0E6;
+    border-radius: 8px;
+    width: inherit;
+    padding: 8px 16px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+
+div.searchbar > div > div:nth-child(2) > div.log > div > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
+div.searchbar > div > div:nth-child(2) > div.log > div > a {
+    font-family: IranYekan400;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 12px;
+    text-decoration: none;
+    color: #080A38;
+}
+
+div.searchbar > div > div:nth-child(2) > div.log > div > a > div {
+    width: 2px;
+    height: 12px;
+    margin: 0px 4px;
+    background-color: #080A38;
+    display: inline-block;
+}
+
+div.searchbar > div > div:nth-child(2) > div.shop > div {
+    height: 24px;
+    padding: 0px 18px;
+    border-right: 1px #E0E0E6 solid;
+}
+/* end searchbar */
+
+/* start menu */
+div.menu {
+    width: 100%;
+    height: 44px;
+    padding: 0px 16px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+div.menu > div{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.menu > div > div:nth-child(1) {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+div.menu > div > div:nth-child(1) > div.daste {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4px 0px 12px;
+}
+
+div.menu > div > div:nth-child(1) > div.daste > a {
+    text-decoration: none;
+    font-family: IranYekan500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #3F4064;
+    column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.shgftangiz {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px 0px 12px;
+    position: relative;
+}
+
+div.menu > div > div:nth-child(1) > div.shgftangiz::after {
+    content: " ";
+    width: 1px;
+    height: 16px;
+    background-color: #E0E0E6;
+    position: absolute;
+    right: 0px;
+    top: calc(50% - 8px);
+}
+
+div.menu > div > div:nth-child(1) > div.shgftangiz > a {
+    text-decoration: none;
+    font-family: IranYekan500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #5A5C7A;
+    column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.super {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px 0px 12px;
+    position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.super > a {
+    text-decoration: none;
+    font-family: IranYekan500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #5A5C7A;
+    column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.gift {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px 0px 12px;
+    position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.gift > a {
+    text-decoration: none;
+    font-family: IranYekan500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #5A5C7A;
+    column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.hot {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px 0px 12px;
+    position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.hot > a {
+    text-decoration: none;
+    font-family: IranYekan500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #5A5C7A;
+    column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.offer {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px 0px 12px;
+    position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.offer > a {
+    text-decoration: none;
+    font-family: IranYekan500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #5A5C7A;
+    column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.offer::after {
+    content: " ";
+    width: 1px;
+    height: 16px;
+    background-color: #E0E0E6;
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 8px);
+
+}
+
+div.menu > div > div:nth-child(1) > div.question {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px 0px 12px;
+    position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.question > a {
+    text-decoration: none;
+    font-family: IranYekan500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #5A5C7A;
+    column-gap: 4px;
+}
+
+div.menu > div > div:nth-child(1) > div.sold {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px 0px 12px;
+    position: relative;
+}
+
+
+div.menu > div > div:nth-child(1) > div.sold > a {
+    text-decoration: none;
+    font-family: IranYekan500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #5A5C7A;
+    column-gap: 4px;
+}
+
+
+div.menu > div > div:nth-child(2) {
+    width: 20%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+div.menu > div > div:nth-child(2) > div.location {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px 0px 12px;
+    position: relative;
+}
+
+
+div.menu > div > div:nth-child(2) > div.location > a {
+    text-decoration: none;
+    font-family: IranYekan500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #5A5C7A;
+    column-gap: 4px;
+}
+
+
+/* start menu hover */
+div.menu > div > div:nth-child(1) > div {
+    position: relative;
+}
+
+div.menu > div > div:nth-child(1) > div::before {
+    content: " ";
+    width: 0;
+    height: 2px;
+    border-radius: 2px 2px 0px 0px;
+    border-bottom: 2px solid red;
+    z-index: 900;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform-origin: right;
+}
+
+div.menu > div > div:nth-child(1) > div:hover::before {
+    width: 100%;
+    transition: all 200ms ease-in-out;
+    border-bottom: 2px solid red;
+}
+/* end menu hover */
+
+/* end menu */

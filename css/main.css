@@ -1,0 +1,16 @@
+/* setting */
+@import url(./setting.css);
+/* setting */
+
+/* menu */
+@import url(./partials/menu.css);
+/* menu */
+
+/* category */
+@import url(./partials/categoty.css);
+@import url(./partials/daste.css);
+/* category */
+
+/* swiper */
+@import url(./partials/swiper.css);
+/* swiper */
