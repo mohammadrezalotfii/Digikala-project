@@ -5,6 +5,7 @@ div.story {
   justify-content: center;
   font-family: IranYekan400;
   font-size: 12px;
+  margin: 0px auto;
 }
 
 div.story > div {
@@ -114,12 +115,9 @@ div.mySwiper > .swiper-button-next {
 
 div.mydigi {
   width: 1304px;
-<<<<<<< HEAD
   padding: 24px 16px;
-=======
   margin: 24px auto;
   padding: 0px 16px;
->>>>>>> 12e5dde14d1210228adea486235cab4bc847d5d2
 }
 
 div.mydigi > div {

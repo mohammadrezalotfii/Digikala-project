@@ -1,0 +1,198 @@
+div.footer {
+    width: 100%;
+    margin: 24px auto;
+    padding: 24px 0px;
+    border-top: 1px solid #e0e0e0;
+}
+
+div.digikala {
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px auto;
+    margin: 0 auto;
+}
+
+div.digikala > a:nth-child(2) {
+    text-decoration: none;
+    font-family: IranYekan400;
+    font-size: 12px;
+    color: #919191;
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    border: 1px solid #b6b6b6;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+div.footer > div:nth-of-type(2) {
+    width: 1320px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: IranYekan400;
+    font-size: 12px;
+    margin: 16px auto;
+    column-gap: 24px;
+    color: #262733;
+}
+
+div.footer > div:nth-of-type(2) > span{
+    width: 1px;
+    height: 12px;
+    background-color: #b6b6b6;
+}
+
+div.footer > div:nth-of-type(3) {
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: IranYekan400;
+    font-size: 12px;
+    color: #262733;
+    margin: 48px auto;
+}
+
+div.footer > div:nth-of-type(3) > div{
+    width: 1320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+div.footer > div:nth-of-type(4) {
+    width: 1320px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-family: IranYekan400;
+    margin: 24px auto;
+}
+
+div.footer > div:nth-of-type(4) > div > h3 {
+    color: #262733;
+    font-size: 16px;
+    padding: 16px 0px;
+}
+
+div.footer > div:nth-of-type(4) > div > p {
+    color: #262733;
+    font-size: 16px;
+    margin-top: 24px;
+    padding: 8px 0px;
+    font-family: IranYekan600;
+}
+
+div.footer > div:nth-of-type(4) > div > a {
+    color: #919191;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding: 6px 0px;
+}
+
+div.hamrah > div {
+    display: flex;
+    justify-content: start;
+    column-gap: 32px;
+}
+
+div.email {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+    column-gap: 4px;
+}
+
+div.email > input.search-input {
+    width: 100%;
+    background-color: #F1F2F4;
+    border: unset;
+    color: #7e7fad;
+    height: 48px;
+    padding: 0px 8px;
+    border-radius: 8px;
+}
+
+div.email > input.search-input:focus {
+    outline: unset;
+}
+
+
+div.email > input.search-input::placeholder {
+    border: unset;
+    color: #7e7fad;
+    height: 48px;
+    padding: 0px 8px;
+    font-family: IranYekan500;
+    font-size: 14px;
+}
+
+div.email > input.btn-input {
+    width: 20%;
+    background-color: #a7a7a7;
+    border: unset;
+    color: #ffffff;
+    height: 48px;
+    padding: 0px 20px;
+    border-radius: 8px;
+    font-family: IranYekan500;
+}
+
+div.application {
+    width: 1320px;
+    height: 76px;
+    margin: 24px auto;
+    border-radius: 16px;
+    background-color: #3C4B6D;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 16px;
+}
+
+div.application > div:nth-child(1) {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 16px;
+    color: white;
+    font-family: IranYekan500;
+    font-size: 20px;
+}
+
+div.application > div:nth-child(1) > img {
+    width: 44px;
+    height: 44px;
+}
+
+div.application > div:nth-child(2) > div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 16px;
+}
+
+div.application > div:nth-child(2) > div img{
+    width: 142px;
+    height: 44px;
+}
+
+div.application > div:nth-child(2) > div > a:nth-last-of-type(1){
+    background-color: white;
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+div.application > div:nth-child(2) > div > a:nth-last-of-type(1) > img{
+    width: 44px;
+    height: 44px;
+}

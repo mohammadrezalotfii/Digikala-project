@@ -21,11 +21,8 @@ div.dastee > div:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
   padding: 8px 0px;
-=======
   padding: 16px 0px;
->>>>>>> 12e5dde14d1210228adea486235cab4bc847d5d2
 }
 
 div.dastee > div:nth-child(2) > div {
@@ -65,11 +62,8 @@ div.dastee > div:nth-child(3) {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
   padding: 16px 90px;
-=======
   padding: 16px 80px;
->>>>>>> 12e5dde14d1210228adea486235cab4bc847d5d2
 }
 
 div.dastee > div:nth-child(3) > div {
@@ -999,7 +993,6 @@ div.montakhab > div:nth-child(2) > div > a > div:nth-child(3) > p{
   display: flex;
   align-items: center;
   margin-left: 28px;
-<<<<<<< HEAD
 }
 
 div.montakhab > div:nth-child(2) > div > a{
@@ -1122,6 +1115,4 @@ div.blog > div:nth-child(2) > div > p {
   line-height: 24px;
   color: #262733;
   vertical-align: top;
-=======
->>>>>>> 12e5dde14d1210228adea486235cab4bc847d5d2
 }
