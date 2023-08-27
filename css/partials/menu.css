@@ -26,7 +26,7 @@ div.searchbar {
 }
 
 div.searchbar > div {
-  width: 1360px;
+  width: 1320px;
   margin: 0px auto;
   height: inherit;
   display: flex;
@@ -178,7 +178,7 @@ div.menu {
 }
 
 div.menu > div{
-    width: 1400px;
+    width: 1320px;
     margin: 0px auto;
     height: inherit;
     display: flex;
@@ -205,7 +205,7 @@ div.menu > div > div:nth-child(1) > div.daste {
 }
 
 div.daste > div {
-    width: 1400px;
+    width: 1320px;
     position: absolute;
     right: 0px;
     top: 44px;
@@ -222,13 +222,15 @@ div.daste > a:focus ~ div{
 
 div.daste > div > div{
     width: inherit;
-    height: fit-content;
+    height: 420px;
     position: relative;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.308);
     border-radius: 8px;
 }
 
 div.daste > div > div > ul {
+    height: 420px;
+    overflow: auto;
     list-style: none;
     text-align: start;
     display: flex;
@@ -277,11 +279,12 @@ div.daste > div > div > ul > li > p:hover {
 }
 
 div.daste > div > div > ul > li > div {
-    height: fit-content;
     position: absolute;
+    height: 420px !important;
+    overflow: auto;
     left: 0px;
     top: 0px;
-    width: 1200px;
+    width: 1120px;
     padding: 16px;
     display: none;
     border-radius: 8px;
@@ -292,7 +295,7 @@ div.daste > div > div > ul > li:hover > div {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1200px;
+    width: 1120px;
     padding: 16px;
     display: block;
 }
@@ -316,20 +319,19 @@ div.daste > div > div > ul > li > div > a > img{
 
 div.daste > div > div > ul > li > div > div {
     width: 100%;
-    height: fit-content;
     display: flex;
     justify-content: right;
     vertical-align: top;
-    padding-left: 90px;
     border-radius: 8px;
+    overflow: auto;
 }
 
 div.daste > div > div > ul > li > div > div > div {
     display: flex;
     width: 100%;
+    height: inherit;
     flex-direction: column;
     justify-content: start;
-    overflow: auto;
 }
 
 div.daste > div > div > ul > li > div > div > div > a.onvan {
