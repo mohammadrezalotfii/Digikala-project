@@ -19,7 +19,8 @@ div.searchbar {
 }
 
 div.searchbar > div {
-  width: 100%;
+  width: 1360px;
+  margin: 0px auto;
   height: inherit;
   display: flex;
   justify-content: space-around;
@@ -169,7 +170,8 @@ div.menu {
 }
 
 div.menu > div{
-    width: 100%;
+    width: 1400px;
+    margin: 0px auto;
     height: inherit;
     display: flex;
     justify-content: space-around;
