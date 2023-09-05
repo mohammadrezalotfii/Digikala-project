@@ -812,7 +812,7 @@ div.mySwiper4  div.swiper-slide > div > div{
   padding: 24px 8px 24px 0px;
   border-bottom: 1px solid #f1f2f4;
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: start;
 }
 
